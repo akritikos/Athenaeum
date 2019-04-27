@@ -1,10 +1,7 @@
-﻿namespace Kritikos.Athenaeum.Web.Models
+﻿using Microsoft.EntityFrameworkCore;
+
+namespace Kritikos.Athenaeum.BusinessLogic.Models
 {
-	using System;
-
-	using Microsoft.EntityFrameworkCore;
-	using Microsoft.EntityFrameworkCore.Metadata;
-
 	public partial class metadataContext : DbContext
 	{
 		public metadataContext()

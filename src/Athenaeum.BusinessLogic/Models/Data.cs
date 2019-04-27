@@ -1,8 +1,5 @@
-﻿namespace Kritikos.Athenaeum.Web.Models
+﻿namespace Kritikos.Athenaeum.BusinessLogic.Models
 {
-	using System;
-	using System.Collections.Generic;
-
 	public partial class Data
 	{
 		public long Id { get; set; }
