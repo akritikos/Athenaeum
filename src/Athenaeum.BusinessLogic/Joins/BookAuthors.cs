@@ -1,5 +1,7 @@
-﻿namespace Kritikos.Athenaeum.BusinessLogic.Models
+namespace Kritikos.Athenaeum.BusinessLogic.Joins
 {
+	using Kritikos.Athenaeum.BusinessLogic.Entities;
+
 	public class BookAuthors
 	{
 		public long Id { get; set; }

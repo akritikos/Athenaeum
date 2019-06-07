@@ -1,7 +1,6 @@
 namespace Kritikos.Athenaeum.BusinessLogic.Joins
 {
 	using Kritikos.Athenaeum.BusinessLogic.Entities;
-	using Kritikos.Athenaeum.BusinessLogic.Models;
 
 	public class BookMetaSeries
 	{

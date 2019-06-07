@@ -1,4 +1,4 @@
-namespace Kritikos.Athenaeum.BusinessLogic.Models
+namespace Kritikos.Athenaeum.BusinessLogic
 {
 	using Kritikos.Athenaeum.BusinessLogic.Entities;
 	using Kritikos.Athenaeum.BusinessLogic.Joins;
