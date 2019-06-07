@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.28803.156
 MinimumVisualStudioVersion = 15.0.26124.0
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Athenaeum.BusinessLogic", "src\Athenaeum.BusinessLogic\Athenaeum.BusinessLogic.csproj", "{7757275C-6002-4191-A037-B58C987262D4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Athenaeum.BusinessLogic", "src\Athenaeum.BusinessLogic\Athenaeum.BusinessLogic.csproj", "{7757275C-6002-4191-A037-B58C987262D4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Athenaeum.Web.Models", "src\Athenaeum.Web.Models\Athenaeum.Web.Models.csproj", "{FEABD5C3-E5D7-45E7-91C3-1C611ECA16FF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Athenaeum.Web.Models", "src\Athenaeum.Web.Models\Athenaeum.Web.Models.csproj", "{FEABD5C3-E5D7-45E7-91C3-1C611ECA16FF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Athenaeum.Web", "src\Athenaeum.Web\Athenaeum.Web.csproj", "{613497C7-EAE6-4BAC-B763-8483FC4CAB49}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Athenaeum.Web", "src\Athenaeum.Web\Athenaeum.Web.csproj", "{613497C7-EAE6-4BAC-B763-8483FC4CAB49}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestDB", "TestDB\TestDB.csproj", "{96A924FD-0BDE-4DA5-9B33-F67471460AF5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -55,6 +57,18 @@ Global
 		{613497C7-EAE6-4BAC-B763-8483FC4CAB49}.Release|x64.Build.0 = Release|Any CPU
 		{613497C7-EAE6-4BAC-B763-8483FC4CAB49}.Release|x86.ActiveCfg = Release|Any CPU
 		{613497C7-EAE6-4BAC-B763-8483FC4CAB49}.Release|x86.Build.0 = Release|Any CPU
+		{96A924FD-0BDE-4DA5-9B33-F67471460AF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96A924FD-0BDE-4DA5-9B33-F67471460AF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96A924FD-0BDE-4DA5-9B33-F67471460AF5}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{96A924FD-0BDE-4DA5-9B33-F67471460AF5}.Debug|x64.Build.0 = Debug|Any CPU
+		{96A924FD-0BDE-4DA5-9B33-F67471460AF5}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{96A924FD-0BDE-4DA5-9B33-F67471460AF5}.Debug|x86.Build.0 = Debug|Any CPU
+		{96A924FD-0BDE-4DA5-9B33-F67471460AF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96A924FD-0BDE-4DA5-9B33-F67471460AF5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96A924FD-0BDE-4DA5-9B33-F67471460AF5}.Release|x64.ActiveCfg = Release|Any CPU
+		{96A924FD-0BDE-4DA5-9B33-F67471460AF5}.Release|x64.Build.0 = Release|Any CPU
+		{96A924FD-0BDE-4DA5-9B33-F67471460AF5}.Release|x86.ActiveCfg = Release|Any CPU
+		{96A924FD-0BDE-4DA5-9B33-F67471460AF5}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

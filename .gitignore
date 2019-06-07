@@ -471,3 +471,4 @@ connectionStrings.json
 # NuGet Symbol Packages
 *.snupkg
 **/wwwroot/dist/*
+/TestDB
