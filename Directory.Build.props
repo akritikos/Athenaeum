@@ -36,9 +36,13 @@
 	</PropertyGroup>
 
 	<ItemGroup Label="Nugets">
-		<PackageReference Include="StyleCop.Analyzers" Version="1.1.1-rc.114">
+		<PackageReference Include="StyleCop.Analyzers" Version="1.1.118">
 			<PrivateAssets>all</PrivateAssets>
 			<IncludeAssets>runtime; build; native; contentfiles; analyzers</IncludeAssets>
 		</PackageReference>
 	</ItemGroup>
+	<PackageReference Include="SerilogAnalyzer" Version="0.15.0">
+		<PrivateAssets>all</PrivateAssets>
+		<IncludeAssets>runtime; build; native; contentfiles; analyzers</IncludeAssets>
+	</PackageReference>
 </Project>
