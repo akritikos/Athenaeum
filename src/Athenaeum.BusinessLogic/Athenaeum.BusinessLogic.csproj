@@ -12,8 +12,4 @@
     <ProjectReference Include="..\Athenaeum.Web.Models\Athenaeum.Web.Models.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Models\" />
-  </ItemGroup>
-
 </Project>
