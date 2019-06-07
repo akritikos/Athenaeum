@@ -1,9 +1,9 @@
 {
-  "folders": [
-    {
+	"folders": [
+		{
 			"Name": "Project Code",
-      "path": "."
-    }
+			"path": "."
+		}
 	],
 	"settings": {
 		"files.exclude": {
