@@ -3,17 +3,27 @@ namespace Kritikos.Athenaeum.BusinessLogic
 	using Kritikos.Athenaeum.BusinessLogic.Entities;
 	using Kritikos.Athenaeum.BusinessLogic.Joins;
 	using Microsoft.EntityFrameworkCore;
+	using Microsoft.Extensions.Logging;
 
 	public partial class CalibreDbContext : DbContext
 	{
+		private readonly ILoggerFactory _loggerFactory;
+
 		public CalibreDbContext()
 		{
 		}
+
+		public CalibreDbContext(ILoggerFactory loggerFactory)
+		=> _loggerFactory = loggerFactory;
 
 		public CalibreDbContext(DbContextOptions<CalibreDbContext> options)
 			: base(options)
 		{
 		}
+
+		public CalibreDbContext(DbContextOptions<CalibreDbContext> options, ILoggerFactory loggerFactory)
+			: base(options)
+		=> _loggerFactory = loggerFactory;
 
 		public virtual DbSet<Author> Authors { get; set; }
 
@@ -56,6 +66,11 @@ namespace Kritikos.Athenaeum.BusinessLogic
 			if (!optionsBuilder.IsConfigured)
 			{
 				optionsBuilder.UseSqlite("Data Source=C:\\Users\\Satellite\\Desktop\\metadata.db");
+			}
+
+			if (_loggerFactory != null)
+			{
+				optionsBuilder.UseLoggerFactory(_loggerFactory);
 			}
 		}
 
