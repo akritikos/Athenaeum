@@ -1,10 +1,10 @@
 ﻿namespace Kritikos.Athenaeum.BusinessLogic.Models
 {
-	public partial class Data
+	public class BookData
 	{
 		public long Id { get; set; }
 
-		public long Book { get; set; }
+		public virtual Book Book { get; set; }
 
 		public string Format { get; set; }
 

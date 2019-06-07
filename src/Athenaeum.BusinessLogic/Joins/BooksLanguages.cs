@@ -1,12 +1,12 @@
 namespace Kritikos.Athenaeum.BusinessLogic.Models
 {
-	public partial class BooksLanguagesLink
+	public class BooksLanguages
 	{
 		public long Id { get; set; }
 
-		public long Book { get; set; }
+		public virtual Book Book { get; set; }
 
-		public long LangCode { get; set; }
+		public virtual Language LangCode { get; set; }
 
 		public long ItemOrder { get; set; }
 	}

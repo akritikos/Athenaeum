@@ -1,6 +1,8 @@
 namespace Kritikos.Athenaeum.BusinessLogic.Models
 {
-	public partial class Books
+	using System;
+
+	public class Book
 	{
 		public long Id { get; set; }
 
@@ -8,9 +10,9 @@ namespace Kritikos.Athenaeum.BusinessLogic.Models
 
 		public string Sort { get; set; }
 
-		public string Timestamp { get; set; }
+		public DateTimeOffset Timestamp { get; set; }
 
-		public string Pubdate { get; set; }
+		public DateTimeOffset Pubdate { get; set; }
 
 		public double SeriesIndex { get; set; }
 
@@ -26,8 +28,8 @@ namespace Kritikos.Athenaeum.BusinessLogic.Models
 
 		public string Uuid { get; set; }
 
-		public string HasCover { get; set; }
+		public bool HasCover { get; set; }
 
-		public string LastModified { get; set; }
+		public DateTimeOffset LastModified { get; set; }
 	}
 }

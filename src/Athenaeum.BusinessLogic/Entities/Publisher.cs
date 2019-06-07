@@ -1,6 +1,6 @@
-﻿namespace Kritikos.Athenaeum.BusinessLogic.Models
+namespace Kritikos.Athenaeum.BusinessLogic.Models
 {
-	public partial class Publishers
+	public class Publisher
 	{
 		public long Id { get; set; }
 
